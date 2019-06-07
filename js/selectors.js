@@ -6,6 +6,7 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  return $('img: last')
+  var lastImage = $('img: last');
+  return lastImage
 }
 });
