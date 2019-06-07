@@ -1,5 +1,5 @@
 // declare your functions here...
-use strict;
+'use-strict';
 $(document.ready(function(){
 function paragraphSelector(){
  return $('p')
