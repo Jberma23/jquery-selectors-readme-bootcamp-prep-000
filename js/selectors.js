@@ -2,9 +2,9 @@
 
 
 function paragraphSelector(){
- return $('p')
+ return $('p');
 }
 
 function lastImageSelector(){
-  return $("div img: last")
+  return $('img:last');
 }
