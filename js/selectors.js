@@ -6,5 +6,5 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  return $("#pic-list: last")
+  return $("ul li")
 }
