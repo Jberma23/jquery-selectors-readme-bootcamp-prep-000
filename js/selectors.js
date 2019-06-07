@@ -1,4 +1,5 @@
 // declare your functions here...
+use strict;
 $(document.ready(function(){
 function paragraphSelector(){
  return $('p')
@@ -10,3 +11,5 @@ function lastImageSelector(){
   return lastImageSelector
 }
 });
+$(document).ready(function(){
+  $("#text").append("this is so freaking cool.");
